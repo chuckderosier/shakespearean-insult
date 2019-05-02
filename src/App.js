@@ -17,12 +17,43 @@ const InsultStyles = styled.div`
       font-size: 1em;
       margin: .1em auto;
       padding: .2em .3em;
+      border-radius: .3em;
     }
     #quote-container {
       display: flex;
+      align-items: center;
     }
     img {
-      width: 25vw;
+      width: 35vw;
+    }
+    #quote {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 40vw;
+      height: 30vh;
+      background-color: rgba(255,255,255,.8);
+      margin: 0 0 0 2em;
+      border-radius: 30%;
+    }
+    #quote:after {
+	    content: '';
+	    position: absolute;
+	    left: 0;
+	    top: 50%;
+	    width: 0;
+	    height: 0;
+	    border: 2em solid transparent;
+	    border-right-color: rgba(255,255,255,.8);
+	    border-left: 0;
+	    margin-top: -2em;
+	    margin-left: -2em;
+    }
+    p {
+      color: rgb(50,0,0);
+      font-size: 2em;
+      margin: 0 auto;
     }
 `
 
