@@ -1,5 +1,5 @@
 ## Randomly Generated Shakespearean Insults
-This silly simple React app combines 2 sets of adjectives with a noun taken from Shakespear's work and randomly combines them to make new insults. I will admit that I do not understand many of these insults. This app was recommended to me by Frederick Noble.
+This silly simple React app combines 2 sets of adjectives with a noun taken from Shakespeare's work and randomly combines them to make new insults. I will admit that I do not understand many of these insults. This app was recommended to me by Frederick Noble.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
