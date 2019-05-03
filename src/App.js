@@ -54,6 +54,7 @@ const InsultStyles = styled.div`
       color: rgb(50,0,0);
       font-size: 2em;
       margin: 0 auto;
+      padding: .2em;
     }
   @media (min-width: 510px) and (max-width: 767px) {
     h1 {
