@@ -55,7 +55,7 @@ const InsultStyles = styled.div`
       font-size: 2em;
       margin: 0 auto;
     }
-  @media (min-width: 481px) and (max-width: 767px) {
+  @media (min-width: 510px) and (max-width: 767px) {
     h1 {
       font-size: 1.4em;
     }
@@ -63,10 +63,24 @@ const InsultStyles = styled.div`
       font-size: .8em;
     }
     #quote {
-      height: 20vh;
+      height: 25vh;
     }
     p {
       font-size: 1.6em;
+    }
+  }
+  @media (max-width: 509px) {
+    h1 {
+      font-size: 1.2em;
+    }
+    button {
+      font-size: .7em;
+    }
+    #quote {
+      height: 16vh;
+    }
+    p {
+      font-size: 1em;
     }
   }
 `
