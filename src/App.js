@@ -35,7 +35,7 @@ const InsultStyles = styled.div`
       height: 30vh;
       background-color: rgba(255,255,255,.8);
       margin: 0 0 0 2em;
-      border-radius: 30%;
+      border-radius: 20%;
     }
     #quote:after {
 	    content: '';
@@ -55,6 +55,20 @@ const InsultStyles = styled.div`
       font-size: 2em;
       margin: 0 auto;
     }
+  @media (min-width: 481px) and (max-width: 767px) {
+    h1 {
+      font-size: 1.4em;
+    }
+    button {
+      font-size: .8em;
+    }
+    #quote {
+      height: 20vh;
+    }
+    p {
+      font-size: 1.6em;
+    }
+  }
 `
 
 const adjective1 = ["artless", "bawdy", "beslubbering", "bootless", "churlish", "cockered", "clouted", "craven", "currish", "dankish", "dissembling", "droning", "errant", "fawning", "froward", "frothy", "gleeking", "goatish", "gorbellied", "impertinent", "infectious", "jarring", "loggerheaded", "lumpish", "mammering", "mangled", "paunchy", "pribbling", "puking", "puny", "qualling", "rank", "reeky", "roguish", "ruttish", "saucy", "spleeny", "surly", "tottering", "unmuzzled", "vain", "venomed", "villainous", "warped", "wayward", "weedy", "yeasty"]
@@ -75,7 +89,7 @@ class App extends Component {
 
   render() {
     return (
-      <InsultStyles>
+      <InsultStyles className="media">
         <h1>Randomly Create A Shakespearean Insult</h1>
         <button onClick={this.makeQuote}>Clicketh Here</button>
         <div id="quote-container">
