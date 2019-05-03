@@ -35,7 +35,8 @@ const InsultStyles = styled.div`
       height: 30vh;
       background-color: rgba(255,255,255,.8);
       margin: 0 0 0 2em;
-      border-radius: 20%;
+      border-radius: 10%;
+      padding: .2em;
     }
     #quote:after {
 	    content: '';
@@ -54,7 +55,6 @@ const InsultStyles = styled.div`
       color: rgb(50,0,0);
       font-size: 2em;
       margin: 0 auto;
-      padding: .2em;
     }
   @media (min-width: 510px) and (max-width: 767px) {
     h1 {
