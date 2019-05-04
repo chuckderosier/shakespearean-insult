@@ -63,9 +63,6 @@ const InsultStyles = styled.div`
     button {
       font-size: .8em;
     }
-    #quote {
-      height: 25vh;
-    }
     p {
       font-size: 1.6em;
     }
@@ -76,9 +73,6 @@ const InsultStyles = styled.div`
     }
     button {
       font-size: .7em;
-    }
-    #quote {
-      height: 16vh;
     }
     p {
       font-size: 1em;
