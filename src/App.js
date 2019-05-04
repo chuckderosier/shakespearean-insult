@@ -32,11 +32,10 @@ const InsultStyles = styled.div`
       flex-direction: column;
       justify-content: center;
       width: 40vw;
-      height: 30vh;
+      height: 45vh;
       background-color: rgba(255,255,255,.8);
-      margin: 0 0 0 2em;
       border-radius: 10%;
-      padding: .2em;
+      padding: .4em;
     }
     #quote:after {
 	    content: '';
@@ -74,6 +73,9 @@ const InsultStyles = styled.div`
     button {
       font-size: .7em;
     }
+    /* #quote {
+      height: 60vh;
+    } */
     p {
       font-size: 1em;
     }
