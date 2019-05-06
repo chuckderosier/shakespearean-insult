@@ -32,7 +32,7 @@ const InsultStyles = styled.div`
       flex-direction: column;
       justify-content: center;
       width: 40vw;
-      height: 45vh;
+      height: 30vh;
       background-color: rgba(255,255,255,.8);
       border-radius: 10%;
       padding: .4em;
