@@ -86,9 +86,9 @@ class App extends Component {
 
   makeQuote = function buildQuote(event) {
     event.preventDefault()
-    let adj1 = Math.floor((Math.random() * 48))
-    let adj2 = Math.floor((Math.random() * 49))
-    let noun3 = Math.floor((Math.random() * 50))
+    let adj1 = Math.floor((Math.random() * 47))
+    let adj2 = Math.floor((Math.random() * 48))
+    let noun3 = Math.floor((Math.random() * 49))
     document.getElementById("adj1").innerHTML = adjective1[adj1]
     document.getElementById("adj2").innerHTML = adjective2[adj2]
     document.getElementById("noun3").innerHTML = noun[noun3]
