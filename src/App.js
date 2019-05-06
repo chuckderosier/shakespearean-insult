@@ -32,10 +32,9 @@ const InsultStyles = styled.div`
       flex-direction: column;
       justify-content: center;
       width: 40vw;
-      /* height: 32vh; */
       background-color: rgba(255,255,255,.8);
       border-radius: 10%;
-      padding: .4em;
+      margin: auto 0 auto .2em;
     }
     #quote:after {
 	    content: '';
@@ -44,11 +43,11 @@ const InsultStyles = styled.div`
 	    top: 50%;
 	    width: 0;
 	    height: 0;
-	    border: 2em solid transparent;
+	    border: 1em solid transparent;
 	    border-right-color: rgba(255,255,255,.8);
 	    border-left: 0;
-	    margin-top: -2em;
-	    margin-left: -2em;
+	    margin-top: -1em;
+	    margin-left: -1em;
     }
     p {
       color: rgb(50,0,0);
