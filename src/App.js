@@ -32,7 +32,7 @@ const InsultStyles = styled.div`
       flex-direction: column;
       justify-content: center;
       width: 40vw;
-      height: 32vh;
+      /* height: 32vh; */
       background-color: rgba(255,255,255,.8);
       border-radius: 10%;
       padding: .4em;
@@ -53,7 +53,7 @@ const InsultStyles = styled.div`
     p {
       color: rgb(50,0,0);
       font-size: 2em;
-      margin: .2em auto;
+      margin: .1em auto;
     }
   @media (min-width: 510px) and (max-width: 767px) {
     h1 {
