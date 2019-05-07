@@ -12,9 +12,14 @@ const InsultStyles = styled.div`
       margin: 0 auto;
       padding: .2em;
     }
+    .hide {
+      color: white;
+    }
     button {
       font-family: 'Fondamento', cursive;
       font-size: 1em;
+      background-color: white;
+      color: black;
       margin: .1em auto;
       padding: .2em .3em;
       border-radius: .3em;
@@ -32,7 +37,7 @@ const InsultStyles = styled.div`
       flex-direction: column;
       justify-content: center;
       width: 40vw;
-      background-color: rgba(255,255,255,.8);
+      background-color: white;
       border-radius: 10%;
       margin: auto 0 auto .2em;
     }
@@ -44,7 +49,7 @@ const InsultStyles = styled.div`
 	    width: 0;
 	    height: 0;
 	    border: 1em solid transparent;
-	    border-right-color: rgba(255,255,255,.8);
+	    border-right-color: white;
 	    border-left: 0;
 	    margin-top: -1em;
 	    margin-left: -1em;
