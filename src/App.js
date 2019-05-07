@@ -12,9 +12,6 @@ const InsultStyles = styled.div`
       margin: 0 auto;
       padding: .2em;
     }
-    .hide {
-      color: white;
-    }
     button {
       font-family: 'Fondamento', cursive;
       font-size: 1em;
@@ -23,6 +20,7 @@ const InsultStyles = styled.div`
       margin: .1em auto;
       padding: .2em .3em;
       border-radius: .3em;
+    }
     }
     #quote-container {
       display: flex;
@@ -109,7 +107,7 @@ class App extends Component {
             <img src="https://i.imgur.com/7JBOfEX.png" alt="shakespeare portrait" />
           </div>
           <div id="quote">
-            <p>Thou</p>
+            <p className="hide">Thou</p>
             <p id="adj1"></p>
             <p id="adj2"></p>
             <p id="noun3"></p>
